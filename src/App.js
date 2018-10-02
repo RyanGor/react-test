@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  <script type="text/javascript" src="https://js.taplytics.com/jssdk/54e9bd0339984587bf715fdc9c934e66.min.js"></script>
   render()
   {
     return (
       <div className="App">
         <header className="App-header">
+        <script type="text/javascript" src="https://js.taplytics.com/jssdk/54e9bd0339984587bf715fdc9c934e66.min.js"></script>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
