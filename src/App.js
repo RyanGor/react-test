@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-button-component';
+
 
 class App extends Component {
   render()
@@ -20,6 +22,10 @@ class App extends Component {
           >
             Learn React
           </a>
+
+          <Button onClick={() => alert('Welcome!')}>
+            Hop in!
+          </Button>
         </header>
       </div>
     );
